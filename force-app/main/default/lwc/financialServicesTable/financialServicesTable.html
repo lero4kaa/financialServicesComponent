@@ -1,0 +1,29 @@
+<template>
+    <div class="main slds-p-top_small">
+        <div class="header-container slds-p-left_small slds-p-right_small">
+            <p class="header">Financial Services Account Listing</p>
+            <input class="search" type="text" placeholder="Search by Name" oninput={handleSearchInput}>
+        </div>
+        <div if:false={isLoading} class="slds-m-top_small table-container">
+            <lightning-datatable
+                key-field="Id"
+                columns={columns}
+                data={accounts}
+                enable-infinite-loading
+                hide-checkbox-column
+                sorted-by={sortColumn}
+                sorted-direction={nextSortDirection}
+                onloadmore={handleLoadMore}
+                onsave={handleSave}
+                onsort={handleSort}
+            ></lightning-datatable>
+        </div>
+        <div if:true={isLoading} class="slds-spinner_inline">
+            <lightning-spinner 
+              alternative-text="Loading"  
+              size="medium"
+              variant="brand"                    
+            ></lightning-spinner>
+        </div>
+    </div>
+</template>

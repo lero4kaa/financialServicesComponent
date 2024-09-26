@@ -1,0 +1,26 @@
+.header {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    padding: 6px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.main {
+    background-color: white;
+}
+
+.table-container {
+    height: 300px;
+}
