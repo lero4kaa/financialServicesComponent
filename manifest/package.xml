@@ -15,7 +15,12 @@
     </types>
     <types>
         <members>Financial_Services_App</members>
+        <members>Financial_Services_App_UtilityBar</members>
         <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Financial_Services_App</members>
+        <name>CustomTab</name>
     </types>
     <types>
         <members>Financial_Services_App</members>
