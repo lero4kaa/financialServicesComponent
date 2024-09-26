@@ -199,6 +199,10 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabVisibilities>
+        <tab>Financial_Services_App</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
