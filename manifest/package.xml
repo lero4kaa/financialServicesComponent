@@ -6,6 +6,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Industry</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
         <members>financialServicesTable</members>
         <name>LightningComponentBundle</name>
     </types>
